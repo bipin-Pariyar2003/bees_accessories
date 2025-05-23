@@ -18,13 +18,21 @@ const HeroSection = () => {
       </Typography>
       <Box mt={4}>
         <img
-          src="https://via.placeholder.com/300x200.png?text=Your+Hero+Image"
+          src="/assets/logo/logo.png"
           alt="Accessories"
-          style={{ borderRadius: "20px", maxWidth: "100%", height: "auto" }}
+          style={{ borderRadius: "20px", maxWidth: "30%", height: "auto" }}
         />
       </Box>
       <Box mt={4}>
-        <Button variant="contained" color="primary" size="large">
+        <Button
+          variant="contained"
+          color="primary"
+          size="large"
+          component="a"
+          href="https://www.instagram.com/bees.accessories_?igsh=MWh0N3Nsajc0aHB1Ng%3D%3D&utm_source=qr" // replace with your Instagram
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Shop Now
         </Button>
       </Box>
