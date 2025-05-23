@@ -29,7 +29,7 @@ const HeroSection = () => {
           color="primary"
           size="large"
           component="a"
-          href="https://www.instagram.com/bees.accessories_?igsh=MWh0N3Nsajc0aHB1Ng%3D%3D&utm_source=qr" // replace with your Instagram
+          href="https://www.instagram.com/bees.accessories_?igsh=MWh0N3Nsajc0aHB1Ng%3D%3D&utm_source=qr"
           target="_blank"
           rel="noopener noreferrer"
         >
